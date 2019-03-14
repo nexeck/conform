@@ -1,0 +1,7 @@
+- id: conform
+  name: conform
+  description: Policy enforcment for your pipelines.
+  entry: conform enforce
+  always_run: true
+  language: golang
+  pass_filenames: false
